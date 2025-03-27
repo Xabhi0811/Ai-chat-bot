@@ -27,6 +27,7 @@ app.get('/emergency', (req, res) => {
         guidelines: 'Stay calm, follow emergency instructions.',
         services: 'Local emergency responders will be alerted.'
     };
+
     res.json(emergencyContacts);
 });
 
