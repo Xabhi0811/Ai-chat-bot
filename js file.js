@@ -10,6 +10,7 @@ app.post('/chat', (req, res) => {
     const userMessage = req.body.message;
    
     let botReply = "I'm here to help with safety queries.";
+
     if (userMessage.toLowerCase().includes('emergency')) {
         botReply = "If this is an emergency, please call the appropriate authorities immediately.";
     }
