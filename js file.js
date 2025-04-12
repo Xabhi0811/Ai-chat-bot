@@ -31,7 +31,6 @@ app.get('/emergency', (req, res) => {
     res.json(emergencyContacts);
 });
 
-
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
